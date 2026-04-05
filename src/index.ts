@@ -153,7 +153,7 @@ function homeHtml(phrase: string): string {
       max-width: 100%;
       word-break: break-word;
       user-select: none;
-      filter: blur(0.3px);
+      filter: blur(0.1px);
     }
 
     /* ── Portrait ───────────────────────────── */
