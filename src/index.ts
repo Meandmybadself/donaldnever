@@ -153,12 +153,11 @@ function homeHtml(phrase: string): string {
       max-width: 100%;
       word-break: break-word;
       user-select: none;
-      filter: blur(0.1px);
     }
 
     /* ── Portrait ───────────────────────────── */
     /*
-      Display the landscape frame rotated -90° inside a portrait container.
+      Display the landscape frame rotated +90° inside a portrait container.
       Container aspect ratio: 1024:1536 = 2:3 (the rotated frame dimensions).
       Image is scaled to 150% width and rotated to fill this portrait container.
 
@@ -178,12 +177,12 @@ function homeHtml(phrase: string): string {
         height: auto;
         left: -25%;
         top: calc(100% / 6);
-        transform: rotate(-90deg);
+        transform: rotate(90deg);
         transform-origin: 50% 50%;
       }
 
       .phrase-overlay {
-        inset: 29% 25% 29% 26%;
+        inset: 29% 24% 29% 26%;
       }
 
       .phrase-text {
