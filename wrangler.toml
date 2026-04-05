@@ -1,0 +1,22 @@
+name = "donaldnever"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+account_id = "c3b373ae8a90a6494e520f962bdf462b"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "donaldnever"
+database_id = "ddfc4e0b-364a-4ff2-b441-54913adfd5cd"
+
+[vars]
+ADMIN_USERNAME = "admin"
+# Set ADMIN_PASSWORD as a secret: wrangler secret put ADMIN_PASSWORD
+# For local dev, create a .dev.vars file (see .dev.vars.example)
+
+[[routes]]
+pattern = "donaldnever.meandmybadself.com/*"
+zone_id = "7ae87e4d893d4acb2a81ead11628a9cb"

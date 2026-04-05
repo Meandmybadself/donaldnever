@@ -1,0 +1,15 @@
+{
+  "name": "donaldnever",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "db:init:local": "npx wrangler d1 execute donaldnever --local --file=migrations/0001_init.sql"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241106.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.90.0"
+  }
+}
