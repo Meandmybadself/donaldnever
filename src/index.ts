@@ -89,6 +89,10 @@ function homeHtml(phrase: string): string {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Donald Never</title>
+  <meta property="og:title" content="Donald Never" />
+  <meta property="og:description" content="Donald Never" />
+  <meta property="og:image" content="https://donaldnever.meandmybadself.com/share.jpg" />
+  <meta property="og:type" content="website" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
